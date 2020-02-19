@@ -20,4 +20,4 @@ ActiveRecord::Base.establish_connection(
 #require_all 'app'
 
 #Link To Models Here
-require "models/car.rb"
+require_relative "../app/models/car.rb"
